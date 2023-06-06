@@ -1,0 +1,20 @@
+.background--header {
+  background-color: rgb(255, 102, 0);
+  position: absolute;
+  /* left: calc(100% - 55rem); */
+  top: 0%;
+  width: 100vw;
+  height: 36vh;
+  /* border-radius: 70%; */
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.border--header__justify {
+  justify-content: space-around;
+}
+
+.border--header__option {
+  border: 0.04px solid rgb(238, 238, 238);
+  /* background-color: rgba(206, 215, 255, 0.473); */
+}
