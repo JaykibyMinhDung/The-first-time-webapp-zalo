@@ -14,7 +14,11 @@ module.exports = {
         "10xl": "font-size: 20%; line-height: 1;",
       },
       backgroundColor: {
-        "blue-transparent": "rgba(206, 215, 255, 0.473)",
+        "blue-transparent": "rgba(109, 109, 109, 0.452)",
+        "orange-navbar": "rgb(255, 102, 0)",
+      },
+      screens: {
+        adr: "320px",
       },
     },
   },

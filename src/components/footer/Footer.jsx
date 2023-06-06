@@ -10,7 +10,7 @@ import { ReactComponent as User } from "../../icon/user.svg";
 import "./footer.css";
 
 const navigation = [
-  { name: "Trang chủ", href: "#", current: true, icon: <PageHome /> },
+  { name: "Trang chủ", href: "#", current: false, icon: <PageHome /> },
   {
     name: "Danh mục",
     href: "/list",
@@ -46,11 +46,13 @@ const Footer = () => {
                     item.current
                       ? "bg-slate-50 text-amber-500 "
                       : " text-black hover:bg-slate-50 hover:text-amber-500",
-                    "rounded-md px-3 py-2 text-sm font-medium"
+                    "rounded-md px-3 text-sm font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}
                 >
-                  <div className="svg">{item.icon}</div>
+                  <p className="svg ml-3.5 hover:bg-slate-50 hover:text-amber-500">
+                    {item.icon}
+                  </p>
                   {item.name}
                 </a>
               </div>

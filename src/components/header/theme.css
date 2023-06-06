@@ -16,5 +16,17 @@
 
 .border--header__option {
   border: 0.04px solid rgb(238, 238, 238);
-  /* background-color: rgba(206, 215, 255, 0.473); */
+  /* background-color: rgba(109, 109, 109, 0.452); */
+}
+
+.border--header__justify button {
+  font-size: xx-large;
+  /* background-color: rgba(109, 109, 109, 0.452); */
+}
+
+@media screen and (min-width: 850), (max-width: 350px) {
+  .background--header {
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+  }
 }

@@ -3,6 +3,8 @@ import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 import Theme from "./Theme";
 
+import Option from "./Option";
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -21,7 +23,7 @@ const Header = () => {
           </button>
 
           {/* Profile dropdown */}
-          <Menu as="div" className="relative ml-8 flex ">
+          <Menu as="div" className="relative ml-8 flex items-center ">
             <div className="flex space-x-4 gap-y-8 w-full mt-6">
               <Menu.Button className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                 <span className="sr-only">Open user menu</span>
@@ -45,7 +47,7 @@ const Header = () => {
               leaveFrom="transform opacity-100 scale-100"
               leaveTo="transform opacity-0 scale-95"
             >
-              <Menu.Items className="absolute inset-x-1/4 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+              <Menu.Items className="absolute sm:inset-x-1/4 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                 <Menu.Item>
                   {({ active }) => (
                     <a
@@ -87,15 +89,7 @@ const Header = () => {
                 </Menu.Item>
               </Menu.Items>
             </Transition>
-            <div className="flex border--header__justify mr-6 border h-8 bg-blue-transparent rounded-3xl space-x-6 text-white">
-              <button type="button" className="w-10 mr-auto">
-                ...
-              </button>
-              <p className="border--header__option"></p>
-              <button type="button" className="w-10 divide-x-8 mr-auto">
-                x
-              </button>
-            </div>
+            <Option />
           </Menu>
         </div>
       </Theme>
