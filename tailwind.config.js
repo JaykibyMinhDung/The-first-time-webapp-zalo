@@ -9,9 +9,16 @@ module.exports = {
           "0 19px 25px rgba(0,0,0,0.30)",
           "0 15px 12px rgba(0, 0, 0, 0.25)",
         ],
+        "5xl": [
+          "0 12px 25px rgba(0,0,0,0.10)",
+          "0px 10px 12px rgba(0, 0, 0, 0.10)",
+        ],
       },
       fontSize: {
         "10xl": "font-size: 20%; line-height: 1;",
+      },
+      spacing: {
+        "100px": "28rem",
       },
       backgroundColor: {
         "blue-transparent": "rgba(109, 109, 109, 0.452)",

@@ -24,7 +24,7 @@
   /* background-color: rgba(109, 109, 109, 0.452); */
 }
 
-@media screen and (min-width: 850), (max-width: 350px) {
+@media screen (max-width: 850px) {
   .background--header {
     border-bottom-left-radius: 10rem;
     border-bottom-right-radius: 10rem;
