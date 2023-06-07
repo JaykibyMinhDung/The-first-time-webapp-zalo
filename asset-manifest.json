@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/The-first-time-webapp-zalo/static/css/main.204d7033.css",
+    "main.js": "/The-first-time-webapp-zalo/static/js/main.a67b50e4.js",
+    "static/js/787.d4475b3d.chunk.js": "/The-first-time-webapp-zalo/static/js/787.d4475b3d.chunk.js",
+    "static/media/logo.svg": "/The-first-time-webapp-zalo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/crown-svgrepo-com.svg": "/The-first-time-webapp-zalo/static/media/crown-svgrepo-com.2574f6a255f1c08def7e12e30189ef47.svg",
+    "index.html": "/The-first-time-webapp-zalo/index.html",
+    "static/media/star.svg": "/The-first-time-webapp-zalo/static/media/star.93f75f19a9b7ccbdb1419e7897358186.svg",
+    "static/media/gift.svg": "/The-first-time-webapp-zalo/static/media/gift.06ab6838e583a7f955d8ae25dd36fb91.svg",
+    "static/media/chatText.svg": "/The-first-time-webapp-zalo/static/media/chatText.e0197500956372a27d4474b590a95897.svg",
+    "static/media/documents-check.svg": "/The-first-time-webapp-zalo/static/media/documents-check.9056fa20ec8c58ca2a3a1c284f744870.svg",
+    "static/media/contact.svg": "/The-first-time-webapp-zalo/static/media/contact.c0f154d0db8eb10f2a9f33f736883b0c.svg",
+    "static/media/giftboild.svg": "/The-first-time-webapp-zalo/static/media/giftboild.9fb4ddf4f6cd59495d2b8d7aa1d5a288.svg",
+    "static/media/cartIcon.svg": "/The-first-time-webapp-zalo/static/media/cartIcon.c896ae198c9d43620b067c4a7cdf9cda.svg",
+    "static/media/iconlist.svg": "/The-first-time-webapp-zalo/static/media/iconlist.17cecddb575527183b5f6294d05f3104.svg",
+    "static/media/iconhome.svg": "/The-first-time-webapp-zalo/static/media/iconhome.86ee11fff8af77aff4b72ccbf77e5b62.svg",
+    "static/media/user.svg": "/The-first-time-webapp-zalo/static/media/user.82fece514a4339b6879904a53d990782.svg",
+    "static/media/cartboild.svg": "/The-first-time-webapp-zalo/static/media/cartboild.d38c2ec92738510b24bd1c9bdcf2aa22.svg",
+    "main.204d7033.css.map": "/The-first-time-webapp-zalo/static/css/main.204d7033.css.map",
+    "main.a67b50e4.js.map": "/The-first-time-webapp-zalo/static/js/main.a67b50e4.js.map",
+    "787.d4475b3d.chunk.js.map": "/The-first-time-webapp-zalo/static/js/787.d4475b3d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.204d7033.css",
+    "static/js/main.a67b50e4.js"
+  ]
+}
