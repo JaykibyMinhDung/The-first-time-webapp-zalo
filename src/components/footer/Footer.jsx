@@ -1,5 +1,6 @@
 import React from "react";
 import { Disclosure } from "@headlessui/react";
+import { NavLink } from "react-router-dom";
 
 import { ReactComponent as PageHome } from "../../icon/iconhome.svg";
 import { ReactComponent as ListIcon } from "../../icon/iconlist.svg";
@@ -23,6 +24,10 @@ const navigation = [
 ];
 
 function classNames(...classes) {
+  // item.current
+  //   ? "bg-slate-50 text-amber-500 "
+  //   : " text-black hover:bg-slate-50 hover:text-amber-500",
+
   return classes.filter(Boolean).join(" ");
 }
 
@@ -33,28 +38,28 @@ const Footer = () => {
       className=" drop-shadow-4xl absolute top-full bg-slate-50"
     >
       <>
-        {/* max-w-7xl */}
         <div className="mx-auto w-screen px-2 sm:px-6 lg:px-8">
           <div className="relative mx-8 flex items-center justify-between">
             {navigation.map((item) => (
               // icon
               <div className="flex-col text-center">
-                <a
+                <NavLink
                   key={item.name}
-                  href={item.href}
-                  className={classNames(
-                    item.current
-                      ? "bg-slate-50 text-amber-500 "
-                      : " text-black hover:bg-slate-50 hover:text-amber-500",
-                    "rounded-md px-3 text-sm font-medium"
-                  )}
+                  to={item.href}
+                  // className={classNames(
+                  //   "rounded-md px-3 text-sm font-medium, hover:text-amber-500"
+                  // )}
+                  style={({ isActive, isPending }) => {
+                    return {
+                      color: isActive ? "black" : "rgb(245 158 11)",
+                    };
+                  }}
                   aria-current={item.current ? "page" : undefined}
                 >
-                  <p className="svg ml-3.5 hover:bg-slate-50 hover:text-amber-500">
-                    {item.icon}
-                  </p>
+                  <p className="svg ml-3.5 ">{item.icon}</p>
+                  {/* hover:bg-slate-50 hover:text-amber-500, */}
                   {item.name}
-                </a>
+                </NavLink>
               </div>
             ))}
             {/* Drop box  */}
@@ -66,3 +71,10 @@ const Footer = () => {
 };
 
 export default Footer;
+
+// ({ isActive, isPending }) =>
+// isPending
+//   ? "pending"
+//   : isActive
+//   ? "text-black hover:bg-slate-50 hover:text-amber-500"
+//   : "bg-slate-50 text-amber-500";

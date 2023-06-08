@@ -18,6 +18,7 @@ module.exports = {
         "10xl": "font-size: 20%; line-height: 1;",
       },
       spacing: {
+        "20%": "20%",
         "100px": "28rem",
       },
       backgroundColor: {
