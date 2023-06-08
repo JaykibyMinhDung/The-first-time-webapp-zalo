@@ -12,7 +12,7 @@ const MainHome = () => {
         {/* Menu */}
         <div className="flex flex-nowrap justify-between text-center mx-8 mt-8">
           <div>
-            <span class="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">
+            <span className="inline-flex items-center rounded-full bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">
               <CartIcon className="w-10 sm:w-14" />
             </span>
             <p>Mua hàng</p>

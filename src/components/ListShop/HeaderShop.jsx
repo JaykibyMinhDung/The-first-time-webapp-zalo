@@ -19,7 +19,7 @@ const HeaderShop = () => {
         />
         <div className="flex w-full sm:w-2/4 relative">
           <input
-            className=" outline-none w-full placeholder:text-xs rounded-2xl placeholder:text-center  pl-4 p-2"
+            className=" outline-none w-full placeholder:text-xs rounded-2xl placeholder:text-center text-center pl-4 p-2"
             type="text"
             value=""
             placeholder="Tìm kiếm theo tên sản phẩm"
@@ -31,7 +31,7 @@ const HeaderShop = () => {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-6 h-6"
+              className="w-6 h-6"
             >
               <path
                 stroke-linecap="round"
